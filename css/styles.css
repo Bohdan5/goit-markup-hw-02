@@ -13,23 +13,22 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-style: normal;
+  letter-spacing: 0.03em;
 }
 
 /* Header */
 .logo {
-font-family: Raleway;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: var(--logo-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--logo-color);
 }
 .second-logo-color {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--second-logo-color);
 }
 .header-link-studio {
@@ -86,6 +85,7 @@ a {
   color: white;
 }
 .btn {
+  font-family: Roboto;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
@@ -94,25 +94,25 @@ a {
   color: var(--btn-color);
   cursor: pointer;
 }
+.btn:hover {
+  background-color: #188ce8;
+}
 /* description section */
 .main-h {
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
 }
 .main-text {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 /* about company */
 .about {
   font-size: 36px;
   line-height: 1.16;
-  letter-spacing: 0.03em;
   color: #212121;
 }
 /* team */
@@ -122,20 +122,17 @@ a {
 .team {
   font-size: 36px;
   line-height: 1.16;
-  letter-spacing: 0.03em;
   color: #212121;
 }
 .team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 0.84;
-  letter-spacing: 0.03em;
   color: #212121;
 }
 .team-post {
   font-size: 16px;
   line-height: 0.84;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 /* portfolio */
@@ -144,25 +141,32 @@ a {
   color: white;
   background-color: var(--logo-color);
 }
-.portfolio-btn{
+.portfolio-btn {
+  font-family: Roboto;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  letter-spacing: 0.03em;
 }
+/* Список работ */
+.portfolio-item {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #757575;
+}
+.portfolio-link {
+  color: inherit;
 }
 .main-servies {
   font-size: 18px;
   font-weight: bold;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--header-link)
+  color: var(--header-link);
 }
 .main-description {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
@@ -174,27 +178,22 @@ a {
   color: white;
 }
 .footer-address {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: #ffffff;
 }
 .footer-address:hover,
 .footer-address:focus {
   color: var(--logo-color);
 }
-.fmail,
-.ftel {
+.fcontact {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.fmail:hover,
-.fmail:focus {
-  color: var(--logo-color);
-}
-.ftel:hover,
-.ftel:focus {
+.fcontact:hover,
+.fcontact:focus {
   color: var(--logo-color);
 }
