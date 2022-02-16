@@ -157,6 +157,18 @@ a {
 .portfolio-link {
   color: inherit;
 }
+.portfolio-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-logo-color);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
 .main-servies {
   font-size: 18px;
   font-weight: bold;
